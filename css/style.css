@@ -1,0 +1,100 @@
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
+.myGrid {
+    width: 500px;
+    height: 889.9px;
+    display: grid;
+    grid: 
+        "." 18.67px
+	"." 80px
+	"." 123.1px
+	"." 660.8px
+        / 1fr;
+    grid-gap: 0px;
+    grid-auto-flow: row dense;
+    justify-content: space-evenly;
+}
+/* .myGrid > div {
+    /* background: gray; */
+
+.phone-info{
+    background-color: black;
+}
+.phone-col{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    align-content: normal;
+    width: auto;
+    padding: 0 5px;
+}
+.phone-col:nth-child(1){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.fa-battery-half{
+    color: #EAEAEA;
+}
+.logo-banner{
+    background-color: #DD141D;
+}
+.logo-davivienda{
+    display: flex;
+    align-content: center;
+}
+.x-button{
+    padding: 20px;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+}
+.info-area{
+    background-color: #D9D9D9;
+}
+
+.nombre{
+    color: #575757;
+    font-size: 15pt;
+    font-style: Roboto;
+}
+.description{
+    background-color: #EAEAEA;
+    grid-gap: 0;
+}
+.card{
+    padding: 0;
+}
+
+.myGrid2{
+    width: 500px;
+    height: 889.9px;
+    display: grid;
+    grid: 
+        "." 18.67px
+	"." 80px
+	"." 123.1px
+	"." 660.8px
+        / 1fr;
+    grid-gap: 0px;
+    grid-auto-flow: row dense;
+    justify-content: space-evenly;
+    background-color: #575757;
+}
+.seguro{
+    background-color: #D9D9D9;
+}
+.flexbox-container {
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
